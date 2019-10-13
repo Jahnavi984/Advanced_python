@@ -1,0 +1,127 @@
+Supervised learning:
+* Makes machine to learn 
+* Inputs(training)->outputs
+-----------------------------------------
+Unsupervised learning:
+* Inputs->Outputs
+* Machine understands the data
+--------------------------------------
+Reinforcement learning:
+* Reward based learning..
+* experience and learning
+----------------------------------------
+Semisupervised learning:
+Output of Supervised learning(Input)->Output
+-------------------------------------------------
+Classification vs regression 
+Ex:
+Student(classification)pass or fail
+Student(regression)predicts student percentage or marks
+-------------------------------------------------
+Steps to follow:
+1) Get the data
+2) Clean,Prepare and Manipulate Data
+3)Train Model
+4)Test Data
+5)Improve
+---------------------------------------
+Steps to be followed:.....
+Problem Solving->Mathematics->Defining a problem->Data Set->Data Analysis & Visualisation->Machine learning ->Deployment
+------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+NumPy:(Builiding block for other packages)
+-> Provides efficient storage(written in C)
+-> creating homogeneous n dimensional array
+-> Linear algebra,Statistical operations,Matrix operations
+-> Shapes manipulation
+
+Importing package:
+import numpy
+import numpy as np
+from numport mean
+from numpy import *
+from numpy import random
+from numpy import linalg
+
+
+For converting list or a tuple into a numpy array----
+a2=np.array([[1,2],[3,4]])
+print(a2)
+
+
+
+arange function for stepsize---
+Ex: arange(1,15,5)
+(1+5,6+5)
+->It will work for floating point numbers also......
+
+
+NumPy datatypes:
+Boolean
+Integer-int8,int16,int32,int64,int128,int(Available types)
+Complex
+Strings'
+Records
+Object
+Unsigned Integer
+Float
+
+
+linspace divides the array according to the given space 
+
+Initialised:
+np.zeros([2,2]) - All the floating point zeros will be printed
+np.ones([2,2]) - All the ones
+np.full((2,2),7) - A 2*2 matrix with all the places filled with 7 will be created
+np.zeros([2,2],dtype=np.int) - to print all the zeros in integer format
+np.repeat(5,2) - output will be[5,5]
+
+
+Uninitialised:
+np.empty((2,3)) - A 2*3 matrix with all zeros will be created
+
+
+
+Diagonal values:
+np.eye(2) - A matrix with diagonal element 1 will be created
+np.diag([4,5,6,8])   -   A matrix with diagonal elements given will be created
+
+
+
+
+
+
+Normal(or Gaussian) Distribution or Bell Curve   :     Mean=Median = Mode
+Array creation using random package   :  
+np.random.randint(2,5)  :   some random number will be generated
+np.random.randint(7,90,6) : some random number with the given range
+np.random.randint(7,90,(3,3))   :   output will be      
+array([[65, 84, 12],
+       [49, 54, 89],
+       [18, 64, 31]])
+
+np.random.random((2,2))   :   some random numbers with the given size of the matrix
+np.random.rand((2,2))        :   "           "            "           "         "      "         "        "
+np.random.randn((2,2))      :   "           "              "         "         "           "        "
+
+
+
+			Attributes
+array.shape
+array.size
+array.ndim
+array.itemsize
+array.nbytes  -  number of bytes required
+array.dtype 
+
+
+
+
+
+
+
+------------------------------------------
